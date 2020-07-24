@@ -1,9 +1,8 @@
 :root {
     --main-color: #d0e9fa;
     --Poppins:  'Poppins', sans-serif;
+    --spacing: 1px;
 }
-
-
 
 html, body {
     margin: 0%;
@@ -33,16 +32,16 @@ html, body {
 h1 {
     color: var(--main-color);
     font-family: var(--Poppins);
-    font-size: 45px;
+    font-size: 50px;
     padding-top: 30px;
-
+    letter-spacing: var(--spacing);
 }
 
 p {
     color: var(--main-color);
     font-family: var(--Poppins);
-    font-size: 25px;
-    
+    font-size: 30px;
+    letter-spacing: var(--spacing);
 }
 
 .social-icons {
@@ -53,14 +52,7 @@ p {
     color: var(--main-color);
     font-size: 35px;
     padding: 0 20px;
-    transition: ease-in-out 0.4s;
+    display: inline;
 }
-
-.social-icons a:hover {
-    padding-bottom: 0;
-    transform: translateY(8px);
-    transition: ease-in-out 0.4s;
-}
-
 
 
