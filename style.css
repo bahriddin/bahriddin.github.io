@@ -52,5 +52,8 @@ p {
     color: var(--main-color);
     font-size: 35px;
     padding: 0 20px;
-    display: inline;
+}
+
+.social-item {
+    display: inline-block;
 }
